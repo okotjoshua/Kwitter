@@ -1,4 +1,5 @@
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
@@ -8,8 +9,9 @@ function App() {
       <h1>My name is Joshua.....building Kwitter</h1>
 
       {/* Sidebar */}
-      
+  
       {/* Feed */}
+
 
       {/* Widgets */}
 
