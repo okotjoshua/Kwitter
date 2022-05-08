@@ -16,7 +16,7 @@ function Sidebar(){
     return( 
         <div className="sidebar">
             {/* Kwitter icon */}
-            <BikeScooterIcon />
+            <BikeScooterIcon className="sidebar-kwitterIcon"/>
 
             <SidebarOption active Icon={HomeIcon} text="Home"/>
             <SidebarOption Icon={TagIcon} text="Explore"/>
