@@ -10,4 +10,4 @@
      </div>
    )
  }
- export default SidebarOption
+ export default SidebarOption;

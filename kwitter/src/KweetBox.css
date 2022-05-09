@@ -1,0 +1,36 @@
+.kweetBox {
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--kwitter-background);
+    padding-right: 10px;
+}
+.kweetBox > form {
+    display: flex;
+    flex-direction: column;
+}
+.kweetBox__input {
+    padding: 20px;
+    display: flex;
+}
+.kweetBox__input > input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+.kweetBox__imageInput{
+    border: none;
+    padding: 10px;
+}
+
+.tweetBox__tweetButton {
+    background-color: var(--kwitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 80px;
+    height: 40px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+}
