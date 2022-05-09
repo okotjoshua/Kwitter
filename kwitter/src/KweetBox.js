@@ -7,7 +7,7 @@ function KweetBox() {
     <div className="kweetBox">
         <form>
             <div className="kweetBox__input">
-                <Avatar src="https://pbs.twimg.com/profile_images/1462892015444807688/7oIMxIRi_400x400.jpg"></Avatar>
+                <Avatar src="https://pbs.twimg.com/media/FR0Q482UYAI_iLL?format=jpg&name=4096x4096"></Avatar>
                 <input placeholder="What's happening?" type="text"></input>
                 
             </div>

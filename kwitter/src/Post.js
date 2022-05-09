@@ -11,15 +11,15 @@ function Post({ displayName, username, verified, text, image, avatar,}) {
   return (
     <div className="post">
         <div className="post_avatar">
-            <Avatar src="https://pbs.twimg.com/media/E5Tp2XWWQAAFi4Q?format=jpg&name=small"></Avatar>
+            <Avatar src="https://pbs.twimg.com/media/FR0Q482UYAI_iLL?format=jpg&name=4096x4096"></Avatar>
         </div>
         <div className="post_body">
             <div className="post_header">
                 <div className="post_headerText">
                     <h3>
-                        Ritah Faith {" "}
-                        <span>
-                            <VerifiedIcon className="post_badge" /> @ritahkelmoi
+                        Okot Joshua {" "}
+                        <span className="post_headerSpecial">
+                            <VerifiedIcon className="post_badge" /> @okotjoshua
                         </span>
                     </h3>
                 </div>
