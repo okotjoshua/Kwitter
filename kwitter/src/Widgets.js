@@ -19,9 +19,9 @@ function Widgets() {
         <div className="widgets_widgetContainer">
         <h2>What's trending?</h2>
 
-        <TwitterTweetEmbed tweetId={"1505197237755854859"}/>
+        <TwitterTweetEmbed tweetId={""}/>
 
-        <TwitterTweetEmbed tweetId={"1523282990419243008"}/>
+        <TwitterTweetEmbed tweetId={""}/>
 
         <TwitterTweetEmbed 
         sourceType="profile"
@@ -33,6 +33,8 @@ function Widgets() {
             url={"https://facebook.com/cleverprogrammer"}
             options={{ text: "#Kwitter is awesome", via: "okotjoshua"}}
         />
+
+        <TwitterTimelineEmbed />
 
         </div>
     </div>
