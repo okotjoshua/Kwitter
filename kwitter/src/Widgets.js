@@ -1,42 +1,36 @@
-import React from 'react';
+import React from "react";
 import "./Widgets.css";
 import {
-    TwitterTimelineEmbed,
-    TwitterShareButton,
-    TwitterTweetEmbed,
-
+  TwitterTimelineEmbed,
+  TwitterShareButton,
+  TwitterTweetEmbed,
 } from "react-twitter-embed";
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 function Widgets() {
   return (
     <div className="widgets">
-        <div className="widgets_input">
-        <SearchOutlinedIcon className="widgets_searchIcon"/>
-        <input placeholder="Search Kwitter" type="text"/>
-        </div>
+      <div className="widgets__input">
+        <SearchOutlinedIcon className="widgets__searchIcon" />
+        <input placeholder="Search Kwitter" type="text" />
+      </div>
 
-        <div className="widgets_widgetContainer">
+      <div className="widgets__widgetContainer">
         <h2>What's trending?</h2>
 
-        <TwitterTweetEmbed tweetId={""}/>
+        <TwitterTweetEmbed tweetId={"858551177860055040"} />
 
-        <TwitterTweetEmbed tweetId={""}/>
-
-        <TwitterTweetEmbed 
-        sourceType="profile"
-        screenName="KelmoiRytah"
-        options={{ height:400 }}
+        <TwitterTimelineEmbed
+          sourceType="profile"
+          screenName="OKOTJOSHUA43"
+          options={{ height: 400 }}
         />
-        
+
         <TwitterShareButton
-            url={"https://facebook.com/cleverprogrammer"}
-            options={{ text: "#Kwitter is awesome", via: "okotjoshua"}}
+          url={"https://facebook.com/cleverprogrammer"}
+          options={{ text: "#reactjs is awesome", via: "cleverqazi" }}
         />
-
-        <TwitterTimelineEmbed />
-
-        </div>
+      </div>
     </div>
   );
 }
