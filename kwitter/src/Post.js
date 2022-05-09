@@ -5,7 +5,7 @@ import VerifiedIcon from '@mui/icons-material/Verified';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import PublishIcon from '@mui/icons-material/Publish';
+import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
 
 function Post({ displayName, username, verified, text, image, avatar,}) {
   return (
@@ -36,7 +36,7 @@ function Post({ displayName, username, verified, text, image, avatar,}) {
             <ChatBubbleOutlineIcon fontSize="small" />
                 <RepeatIcon  fontSize="small" />
                 <FavoriteBorderIcon  fontSize="small" />
-                <PublishIcon fontSize="small" />
+                <ShareOutlinedIcon fontSize="small" />
              </div>
         </div>
     </div>

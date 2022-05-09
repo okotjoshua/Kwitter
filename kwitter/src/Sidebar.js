@@ -1,6 +1,6 @@
 import React from "react";
 import './Sidebar.css'
-import BikeScooterIcon from '@mui/icons-material/BikeScooter';
+import FlutterDashIcon from '@mui/icons-material/FlutterDash';
 import SidebarOption from "./SidebarOption";
 import HomeIcon from '@mui/icons-material/Home';
 import TagIcon from '@mui/icons-material/Tag';
@@ -16,7 +16,7 @@ function Sidebar(){
     return( 
         <div className="sidebar">
             {/* Kwitter icon */}
-            <BikeScooterIcon className="sidebar-kwitterIcon"/>
+            <FlutterDashIcon className="sidebar-kwitterIcon"/>
 
             <SidebarOption active Icon={HomeIcon} text="Home"/>
             <SidebarOption Icon={TagIcon} text="Explore"/>
