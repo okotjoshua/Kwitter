@@ -16,10 +16,22 @@ function Feed() {
         <KweetBox />
   
         {/* Post */}
-        <Post 
-          
-        />
-        
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
   
     </div>
   )
