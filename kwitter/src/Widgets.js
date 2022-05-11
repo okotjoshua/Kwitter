@@ -20,8 +20,6 @@ function Widgets() {
 
         <TwitterTweetEmbed tweetId={"1514299399861678080"} />
 
-        <TwitterTweetEmbed tweetId={"858551177860055040"} />
-
         <TwitterTimelineEmbed
           sourceType="profile"
           screenName="OKOTJOSHUA43"
