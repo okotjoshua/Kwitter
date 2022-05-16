@@ -16,22 +16,14 @@ function Feed() {
         <KweetBox />
   
         {/* Post */}
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
+        <Post 
+          displayName="Ritah Faith"
+          username="rytahfaith"
+          verified={true}
+          text="Yeah it is working"
+          avatar="https://pbs.twimg.com/media/E5Tp2XWWQAAFi4Q?format=jpg&name=small"
+          image="https://pbs.twimg.com/media/FSQVseGWQAEQOAb?format=jpg&name=small"           
+          />
   
     </div>
   )
