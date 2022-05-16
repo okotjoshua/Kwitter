@@ -4,6 +4,7 @@ import KweetBox from './KweetBox';
 import Post from './Post';
 
 function Feed() {
+  const [posts]
   return (
     <div className="feed">
         {/* Header */}
