@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import "./Feed.css";
 import KweetBox from './KweetBox';
 import Post from './Post';
+import db from './firebase';
 
 function Feed() {
-  const [posts]
+  const[posts, setPosts] = useState([]); 
+
+  useEffect(() => {
+    db.collection('posts').onSnapshot(snapshot => (
+      setPosts(snapshot.docs.map(doc => doc.data()))
+    ))
+  }, []);
+
   return (
     <div className="feed">
         {/* Header */}
@@ -15,19 +23,20 @@ function Feed() {
 
         {/* KweetBox */}
         <KweetBox />
-  
-        {/* Post */}
+
+        {posts.map(post => (
         <Post 
-          displayName="Ritah Faith"
-          username="rytahfaith"
-          verified={true}
-          text="Yeah it is working"
-          avatar="https://pbs.twimg.com/media/E5Tp2XWWQAAFi4Q?format=jpg&name=small"
-          image="https://pbs.twimg.com/media/FSQVseGWQAEQOAb?format=jpg&name=small"           
-          />
+        displayName={post.displayName}
+        username={post.username}
+        verified={post.verified}
+        text={post.text}
+        avatar={post.avatar}
+        image={post.image} 
+        />
+        ))}
   
     </div>
-  )
+  );
 }
 
 export default Feed;

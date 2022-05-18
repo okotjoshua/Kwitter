@@ -24,7 +24,7 @@ function Post({ displayName, username, verified, text, image, avatar,}) {
                     </h3>
                 </div>
                 <div className="post_headerDescription">
-                   {/* <p>The Lango region in Uganda is currently divided into 9 districts of Alebtong, Amolatar, Apac, Dokolo, Kole, Lira, Oyam, Otuke and Kwania District. What is unique and special in your opinion?</p> */}
+                    
                     <p> {text} </p>
                 </div>
             </div>
